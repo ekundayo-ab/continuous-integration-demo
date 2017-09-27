@@ -15,6 +15,10 @@ class Calculator {
   multiply() {
     return this.val1 * this.val2;
   }
+
+  divide() {
+    return this.val1 / this.val2;
+  }
 }
 
 export default Calculator;
