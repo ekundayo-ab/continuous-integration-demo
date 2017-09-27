@@ -15,6 +15,6 @@ describe('Calculator processes', () => {
     assert.equal(25, Calc.multiply());
   });
   it('should return 1 when dividing 5 by 5', () => {
-    assert.equal(25, Calc.divide());
+    assert.equal(1, Calc.divide());
   });
 });
