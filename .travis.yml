@@ -1,0 +1,13 @@
+env:
+  global:
+  # - Maybe a token key or something
+language: node_js
+notifications:
+  email: false
+services:
+  # - postgresql
+script:
+  - npm test
+after_success:
+  - npm run coverage
+  - coveralls < coverage/lcov.info
